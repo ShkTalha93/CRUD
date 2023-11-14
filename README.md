@@ -1,24 +1,38 @@
-# README
+# Simple Ruby on Rails CRUD App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a basic Ruby on Rails application demonstrating CRUD (Create, Read, Update, Delete) operations.
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+1. Clone the repository:
 
-* System dependencies
+2. Navigate to the project directory:
 
-* Configuration
+3. Install dependencies:
 
-* Database creation
+    ```bash
+    bundle install
+    ```
 
-* Database initialization
+4. Set up the database:
 
-* How to run the test suite
+    ```bash
+    rails db:migrate
+    ```
 
-* Services (job queues, cache servers, search engines, etc.)
+5. Start the Rails server:
 
-* Deployment instructions
+    ```bash
+    rails server
+    ```
 
-* ...
+6. Open your browser and visit [http://localhost:3000](http://localhost:3000) to see the app.
+
+## Usage
+
+This simple CRUD app allows you to perform basic operations on a resource (e.g., 'posts'):
+
+- **Create**
+- **Read**
+- **Update**
+- **Delete**
